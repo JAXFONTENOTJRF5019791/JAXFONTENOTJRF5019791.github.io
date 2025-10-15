@@ -28,8 +28,20 @@ $(function () {
 
     // TODO 1 - Enable the Grid
     // toggleGrid();
-
-
+console.log(toggleGrid())
+console.log(createPlatform(500,250,10,500))
+console.log(createPlatform(410,530,90,10))
+console.log(createPlatform(410,650,90,10))
+console.log(createPlatform(410,410,90,10))
+console.log(createPlatform(410,290,90,10))
+console.log(createPlatform(500,250,800,10))
+console.log(createPlatform(1300,400,100,10))
+console.log(createPlatform(950,600,100,10))
+console.log(createPlatform(850,500,20,10))
+console.log(createPlatform(750,450,20,10))
+console.log(createPlatform(660,390,20,10))
+console.log(createPlatform(500,350,100,10))
+console.log(createPlatform(1180,500,15,10))
     // TODO 2 - Create Platforms
 
 
