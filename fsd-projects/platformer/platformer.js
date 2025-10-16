@@ -28,29 +28,47 @@ $(function () {
 
     // TODO 1 - Enable the Grid
     // toggleGrid();
-console.log(toggleGrid())
-console.log(createPlatform(500,250,10,500))
-console.log(createPlatform(410,530,90,10))
-console.log(createPlatform(410,650,90,10))
-console.log(createPlatform(410,410,90,10))
-console.log(createPlatform(410,290,90,10))
-console.log(createPlatform(500,250,800,10))
-console.log(createPlatform(1300,400,100,10))
-console.log(createPlatform(950,600,100,10))
-console.log(createPlatform(850,500,20,10))
-console.log(createPlatform(750,450,20,10))
-console.log(createPlatform(660,390,20,10))
-console.log(createPlatform(500,350,100,10))
-console.log(createPlatform(1180,500,15,10))
+toggleGrid()
+createPlatform(500,250,10,500)
+createPlatform(410,530,90,10)
+createPlatform(410,650,90,10)
+createPlatform(410,410,90,10)
+createPlatform(410,290,90,10)
+createPlatform(500,250,800,10)
+createPlatform(1300,400,100,10)
+createPlatform(950,600,100,10)
+createPlatform(850,500,20,10)
+createPlatform(750,450,20,10)
+createPlatform(660,390,20,10)
+createPlatform(500,350,100,10)
+createPlatform(1180,500,15,10)
     // TODO 2 - Create Platforms
 
 
 
 
     // TODO 3 - Create Collectables
-
-
-
+createCollectable('max',425,600)
+createCollectable('max',425,450)
+createCollectable('max',425,340)
+createCollectable('max',425,230)
+createCollectable('max',650,200)
+createCollectable('max',750,200)
+createCollectable('max',850,200)
+createCollectable('max',950,200)
+createCollectable('max',1050,200)
+createCollectable('max',550,200)
+createCollectable('max',1250,200)
+createCollectable('max',1150,200)
+createCollectable('max',525,280)
+createCollectable('max',950,550)
+createCollectable('max',1350,350)
+createCannon('right' ,250,1999)
+createCannon('bottom' ,1200,2099)
+createCannon('bottom' ,1050,2399)
+createCannon('bottom' ,750,2699)
+createCannon('bottom' ,650,2999)
+createCannon('bottom' ,565,5200)
     
     // TODO 4 - Create Cannons
 
